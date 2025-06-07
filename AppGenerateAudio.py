@@ -26,8 +26,10 @@ for chapter in podcast_definition.chapters:
             # Convert the section content to audio
             print(f"Section {chapter.id}.{section.id}: {section.title} has content.")
 
+            section_id_padded = str(section.id).zfill(3)  # Pad section ID with leading zeros if needed
+            chapter_id_padded = str(chapter.id).zfill(3)
             # Check if the mp3 file already exists
-            filename = f"{sanitize_filename(podcast_definition.title)}-{chapter.id}_{section.id}_{sanitize_filename(section.title)}"
+            filename = f"{sanitize_filename(podcast_definition.title)}-{chapter_id_padded}_{section_id_padded}_{sanitize_filename(section.title)}"
 
             # Look for existing files in the audio_files directory
 
