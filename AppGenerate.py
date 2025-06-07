@@ -2,7 +2,7 @@
 from Ai import generate_section
 from Entities import load_podcast, get_podcast_duration, save_podcast
 
-jsonfile = "./podcasts/kotlin_forcsharpdev_frqc.json"
+jsonfile = "./podcasts/cities_skylines2.json"
 
 podcast_definition = load_podcast(jsonfile)
 

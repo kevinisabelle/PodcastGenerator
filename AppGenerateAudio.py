@@ -2,9 +2,9 @@
 from Entities import load_podcast
 import os
 
-jsonfile = "./podcasts/kotlin_forcsharpdev_frqc.json"
+jsonfile = "./podcasts/cities_skylines2.json"
 files_location = "./audio_files/"
-voice = "fr-FR-Standard-A"
+voice = "fr-CA-Standard-A"
 
 podcast_definition = load_podcast(jsonfile)
 
