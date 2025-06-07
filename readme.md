@@ -8,9 +8,9 @@
    ```bash
    pip install -r requirements.txt
    ```
-   2. Create a json file with your desired chapters and sections.
-      You can generate you file using any LLM you like to create the outline that the generator will use to create the podcast.
-      Use this JSON schema to output your file in the proper format form the LLM:
+2. Create a json file with your desired chapters and sections.
+   You can generate you file using any LLM you like to create the outline that the generator will use to create the podcast.
+   Use this JSON schema to output your file in the proper format form the LLM:
    ```json
    {
      "$schema": "https://json-schema.org/draft/2020-12/schema",
